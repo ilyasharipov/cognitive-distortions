@@ -1,4 +1,4 @@
-colours {
+:root {
   --white: #fff;
   --translucent-white: #d7ccc0;
   --light: #f5f4f0;
@@ -16,16 +16,33 @@ colours {
 }
 
 @font-face {
+  font-weight: 400;
   font-family: 'Open Sans';
-  src: url('../fonts/OpenSans/OpenSans-Light.ttf');
+  src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans/OpenSans-Bold.ttf');
 }
 
 body {
-  font: 16px/1.6em 'Open Sans', sans-serif;
-  color: #2A2626;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  color: var(--dark);
+  font: 400 16px/1.6em 'Open Sans', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Neucha', sans-serif;
   line-height: 1.2em;
 }
@@ -42,8 +59,98 @@ h3 {
   font-size: 34px;
 }
 
-section {
-  max-width: 1110px;
-  text-align: center;
-  margin: 100px 0;
+.container {
+  position: relative;
+
+  width: 1110px;
+
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.flex {
+  display: flex;
+  gap: 30px;
+}
+
+.item {
+  width: 50%;
+}
+
+.section-bg {
+  position: relative;
+
+  background-color: var(--light);
+}
+
+.section-bg::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: block;
+
+  background-image: url('../img/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 10%;
+
+  content: '';
+}
+
+.main-header {
+  color: var(--main);
+}
+
+.main-img {
+  position: absolute;
+  top: 55px;
+  right: -270px;
+
+  height: 525px;
+}
+
+.mt-150 {
+  margin-top: 150px;
+}
+
+.relative {
+  position: relative;
+
+  display: block;
+}
+
+.z-index-100 {
+  z-index: 100;
+}
+
+.button {
+  display: inline-block;
+
+  box-sizing: border-box;
+
+  padding: 12px 24px;
+
+  color: var(--white);
+
+  font-weight: 700;
+
+  text-transform: uppercase;
+
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+.main-link-position-absolute {
+  position: absolute;
+  bottom: 40px;
+  left: 570px;
+}
+
+.btn-orange {
+  background-color: var(--main);
 }
