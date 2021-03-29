@@ -28,10 +28,10 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
   margin: 0;
   padding: 0;
+
+  overflow: auto;
 
   color: var(--dark);
   font: 400 16px/1.6em 'Open Sans', sans-serif;
@@ -68,12 +68,28 @@ h3 {
   padding: 100px 0;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .flex {
   display: flex;
+}
+
+.flex-gap {
   gap: 30px;
 }
 
+.flex-center {
+  justify-content: center;
+}
+
+.flex-center-align {
+  align-items: center;
+}
+
 .item {
+
   width: 50%;
 }
 
@@ -153,4 +169,24 @@ h3 {
 
 .btn-orange {
   background-color: var(--main);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.drop-shadow {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.flex-column {
+  flex-direction: column;
 }
