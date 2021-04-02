@@ -88,6 +88,14 @@ h3 {
   align-items: center;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
 .item {
 
   width: 50%;
@@ -119,6 +127,10 @@ h3 {
 
 .main-header {
   color: var(--main);
+}
+
+.white {
+  color: white;
 }
 
 .main-img {
@@ -189,4 +201,56 @@ h3 {
 
 .flex-column {
   flex-direction: column;
+}
+
+.bg-color-dark {
+  background-color: var(--main-dark);
+}
+
+#navigation {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#navigation li {
+  /*flex-basis: 350px;*/
+  width: calc(93% / 3);
+  height: 330px;
+  margin: 12px;
+  box-sizing: border-box;
+  padding: 24px;
+  background-color: white;
+}
+
+#navigation li:first-child {
+  padding: 0;
+  background-color: var(--main-dark);
+}
+
+#navigation li:first-child h3 {
+  font-size: 52px;
+  padding: 0;
+}
+
+#navigation li h2 {
+  /*flex-basis: 350px;*/
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 64px;
+  line-height: 1;
+}
+
+#navigation li h3 {
+  /*flex-basis: 350px;*/
+  color: var(--main);
+  margin: 0px;
+}
+
+#navigation li p {
+  /*flex-basis: 350px;*/
+  margin: 0px;
 }
