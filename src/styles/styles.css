@@ -45,6 +45,7 @@ h5,
 h6 {
   font-family: 'Neucha', sans-serif;
   line-height: 1.2em;
+  font-weight: 400;
 }
 
 h1 {
@@ -57,6 +58,10 @@ h2 {
 
 h3 {
   font-size: 34px;
+}
+
+h4 {
+  font-size: 24px;
 }
 
 .container {
@@ -76,7 +81,7 @@ h3 {
   display: flex;
 }
 
-.flex-gap {
+.flex-gap-30 {
   gap: 30px;
 }
 
@@ -94,6 +99,10 @@ h3 {
 
 .flex-start {
   justify-content: flex-start;
+}
+
+.flex-content {
+  justify-content: space-between;
 }
 
 .item {
@@ -127,6 +136,18 @@ h3 {
 
 .color-white {
   color: white;
+}
+
+.color-main-dark {
+  color: var(--main-dark);
+}
+
+.color-translucent-dark {
+  color: var(--translucent-dark);
+}
+
+.bg-color-brown {
+  background-color: var(--brown);
 }
 
 .main-img {
@@ -279,4 +300,31 @@ h3 {
 
 .card:hover .card-title {
   color: var(--white);
+}
+
+.cognitive-pre-title {
+  margin: 0;
+}
+
+.cognitive-name {
+  margin: 0 0 30px 0;
+}
+
+.cognitive-text {
+  margin: 0;
+  font-family: 'Neucha';
+}
+
+.cognitive-title {
+  margin-top: 100px;
+  margin-bottom: 20px;
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+
+  font-size: 14px;
+  box-sizing: border-box;
+
+  padding: 4px 8px;
+  text-transform: uppercase;
 }
