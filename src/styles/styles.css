@@ -162,6 +162,14 @@ h4 {
   background-color: var(--white);
 }
 
+.bg-dark {
+  background-color: var(--dark);
+}
+
+.bg-orange {
+  background-color: var(--main);
+}
+
 .main-img {
   position: absolute;
   top: 55px;
@@ -339,4 +347,68 @@ h4 {
 
   padding: 4px 8px;
   text-transform: uppercase;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 38px 50px;
+}
+
+.footer-send-form {
+
+}
+
+.footer-send-button {
+  height: 50px;
+  width: 70px;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.footer-send-button::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+
+  background-color: var(--main);
+  background-image: url('../img/send.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-email-input {
+  height: 50px;
+  width: 394px;
+  border: 0;
+  padding: 0 15px;
+  font-size: 18px;
+}
+
+.form-label {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.form-hint {
+  margin: 6px 0 0 0;
+  font-size: 12px;
+}
+
+.form-hint a {
+  color: var(--white);
+}
+
+.footer-contacts {
+  margin-top: 60px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
