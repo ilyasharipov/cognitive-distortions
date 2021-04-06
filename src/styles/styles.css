@@ -232,15 +232,15 @@ h3 {
 
 .first-card {
   box-sizing: border-box;
-  padding: 0;
   width: 350px;
-  /*height: 348px;*/
+  padding: 0;
 
   background-color: var(--main-dark);
 }
 
 .card-nav-title {
   margin: 0;
+
   font-size: 52px;
 }
 
@@ -250,13 +250,16 @@ h3 {
   width: 350px;
 
   padding: 24px;
-  text-decoration: none;
+
   color: var(--dark);
+  text-decoration: none;
+
   background-color: var(--light);
 }
 
 .card-title {
   margin: 0 0 20px 0;
+
   color: var(--main);
 }
 
@@ -269,12 +272,11 @@ h3 {
 }
 
 .card:hover {
-  background-color: var(--main);
-
   color: var(--white);
+
+  background-color: var(--main);
 }
 
 .card:hover .card-title {
   color: var(--white);
 }
-
