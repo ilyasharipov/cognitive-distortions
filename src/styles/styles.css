@@ -290,7 +290,7 @@ h4 {
 
 .first-card {
   box-sizing: border-box;
-  width: 345px;
+  width: 347px;
   padding: 0;
 
   background-color: var(--main-dark);
@@ -305,7 +305,7 @@ h4 {
 .card {
   display: block;
   box-sizing: border-box;
-  width: 345px;
+  width: 347px;
 
   padding: 24px;
 
