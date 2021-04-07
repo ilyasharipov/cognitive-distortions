@@ -243,10 +243,6 @@ h4 {
   margin-top: 0;
 }
 
-.mt-24 {
-  margin-top: 20px;
-}
-
 .mt-20 {
   margin-top: 20px;
 }
@@ -294,7 +290,7 @@ h4 {
 
 .first-card {
   box-sizing: border-box;
-  width: 350px;
+  width: 349px;
   padding: 0;
 
   background-color: var(--main-dark);
@@ -309,7 +305,7 @@ h4 {
 .card {
   display: block;
   box-sizing: border-box;
-  width: 350px;
+  width: 349px;
 
   padding: 24px;
 
