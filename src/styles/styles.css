@@ -243,8 +243,8 @@ h4 {
   margin-top: 0;
 }
 
-.mt-25 {
-  margin-top: 25px;
+.mt-24 {
+  margin-top: 24px;
 }
 
 .mt-20 {
@@ -257,6 +257,10 @@ h4 {
 
 .pb-20 {
   padding-bottom: 15px;
+}
+
+.pt-200 {
+  padding-top: 200px;
 }
 
 .drop-shadow {
@@ -280,18 +284,12 @@ h4 {
   padding-bottom: 0;
 }
 
-/*.video-block iframe {*/
-/*  position: absolute;*/
-/*  bottom: -100px;*/
-/*}*/
-
 .cards {
   display: flex;
 
   flex-wrap: wrap;
 
   margin: 0 auto;
-  padding: 100px 0 0 0;
 }
 
 .first-card {
