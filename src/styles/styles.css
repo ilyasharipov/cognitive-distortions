@@ -290,9 +290,9 @@ h4 {
 
 .first-card {
   box-sizing: border-box;
-  width: 347px;
+  width: 350px;
   padding: 0;
-
+  margin-bottom: -10px;
   background-color: var(--main-dark);
 }
 
@@ -305,13 +305,13 @@ h4 {
 .card {
   display: block;
   box-sizing: border-box;
-  width: 347px;
+  width: 350px;
 
   padding: 24px;
 
   color: var(--dark);
   text-decoration: none;
-
+  margin-bottom: -10px;
   background-color: var(--light);
 }
 
