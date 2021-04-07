@@ -292,7 +292,7 @@ h4 {
   box-sizing: border-box;
   width: 350px;
   padding: 0;
-  margin-bottom: -10px;
+  margin-bottom: -15px;
   background-color: var(--main-dark);
 }
 
@@ -311,7 +311,7 @@ h4 {
 
   color: var(--dark);
   text-decoration: none;
-  margin-bottom: -10px;
+  margin-bottom: -15px;
   background-color: var(--light);
 }
 
