@@ -291,6 +291,7 @@ h4 {
 .first-card {
   box-sizing: border-box;
   width: 350px;
+
   padding: 0;
   margin-bottom: -15px;
   background-color: var(--main-dark);
