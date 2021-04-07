@@ -43,9 +43,9 @@ h3,
 h4,
 h5,
 h6 {
+  font-weight: 400;
   font-family: 'Neucha', sans-serif;
   line-height: 1.2em;
-  font-weight: 400;
 }
 
 h1 {
@@ -235,6 +235,7 @@ h4 {
 .mb-30 {
   margin-bottom: 30px;
 }
+
 .mb-200 {
   margin-bottom: 200px;
 }
@@ -354,72 +355,79 @@ h4 {
 
 .cognitive-text {
   margin: 0;
-  font-family: 'Neucha';
 }
 
 .cognitive-title {
-  margin-top: 100px;
-  margin-bottom: 20px;
-
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-
-  font-size: 14px;
   box-sizing: border-box;
 
+  margin-top: 100px;
+  margin-bottom: 20px;
   padding: 2px 12px;
+
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+
   text-transform: uppercase;
 }
 
 .footer-block {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   box-sizing: border-box;
   padding: 38px 50px;
 }
 
-.footer-send-form {
-
-}
-
 .footer-send-button {
-  height: 50px;
   width: 70px;
-  border: 0;
+  height: 50px;
+
   padding: 0;
+
+  border: 0;
+
   cursor: pointer;
 }
 
 .footer-send-button::before {
-  content: '';
   display: block;
+
   width: 20px;
   height: 20px;
+
   margin: 0 auto;
 
   background-color: var(--main);
   background-image: url('../img/send.svg');
   background-repeat: no-repeat;
   background-size: cover;
+
+  content: '';
 }
 
 .footer-email-input {
-  height: 50px;
   width: 394px;
-  border: 0;
+  height: 50px;
+
   padding: 0 15px;
+
+  border: 0;
+
   font-size: 18px;
 }
 
 .form-label {
   margin-bottom: 8px;
+
   font-weight: 400;
+
   font-size: 18px;
 }
 
 .form-hint {
   margin: 6px 0 0 0;
+
   font-size: 12px;
 }
 
@@ -428,9 +436,11 @@ h4 {
 }
 
 .footer-contacts {
-  margin-top: 60px;
-  font-size: 14px;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+
+  margin-top: 60px;
+
+  font-size: 14px;
 }
