@@ -1,2 +1,1 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/ilyasharipov/layout-designer-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/ilyasharipov/layout-designer-project-lvl1/actions)
+<a href="cognitive-distortions1h.surge.sh">cognitive-distortions1h.surge.sh</a>
